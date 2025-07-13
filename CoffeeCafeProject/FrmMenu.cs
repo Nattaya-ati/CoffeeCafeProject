@@ -55,10 +55,11 @@ namespace CoffeeCafeProject
         private void getAllMenuToListView()
         {
             //กำหนด Connect String เพื่อติดต่อไปยังฐานข้อมูล
-            string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
+          
+            //string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
 
             //สร้าง Connection ไปยังฐานข้อมูล
-            using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+            using (SqlConnection sqlConnection = new SqlConnection(ShareResource.connectionString))
             {
                 try
                 {
@@ -201,10 +202,10 @@ namespace CoffeeCafeProject
             {
                 //บันทึกลงฐานข้อมูล
                 //กำหนด Connect String เพื่อติดต่อไปยังฐานข้อมูล
-                string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
+                //string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
 
                 //สร้าง Connection ไปยังฐานข้อมูล
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                using (SqlConnection sqlConnection = new SqlConnection(ShareResource.connectionString))
                 {
                     try
                     {
@@ -314,9 +315,9 @@ namespace CoffeeCafeProject
             if (MessageBox.Show("ต้องการลบเมนูหรือไม่", "ยืนยัน", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 //ลบออกจาก database
-                string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
+                //string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
 
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                using (SqlConnection sqlConnection = new SqlConnection(ShareResource.connectionString))
                 {
                     try
                     {
@@ -392,10 +393,10 @@ namespace CoffeeCafeProject
             {
                 //บันทึกลงฐานข้อมูล
                 //กำหนด Connect String เพื่อติดต่อไปยังฐานข้อมูล
-                string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
+                //string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
 
                 //สร้าง Connection ไปยังฐานข้อมูล
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                using (SqlConnection sqlConnection = new SqlConnection(ShareResource.connectionString))
                 {
                     try
                     {

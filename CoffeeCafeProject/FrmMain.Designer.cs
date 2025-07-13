@@ -88,94 +88,114 @@
             // 
             // btMenu1
             // 
-            this.btMenu1.Location = new System.Drawing.Point(15, 127);
+            this.btMenu1.Location = new System.Drawing.Point(40, 303);
+            this.btMenu1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu1.Name = "btMenu1";
-            this.btMenu1.Size = new System.Drawing.Size(101, 45);
+            this.btMenu1.Size = new System.Drawing.Size(269, 107);
             this.btMenu1.TabIndex = 0;
             this.btMenu1.Text = "Menu";
             this.btMenu1.UseVisualStyleBackColor = true;
+            this.btMenu1.Click += new System.EventHandler(this.btMenu1_Click);
             // 
             // btMenu6
             // 
-            this.btMenu6.Location = new System.Drawing.Point(15, 301);
+            this.btMenu6.Location = new System.Drawing.Point(40, 718);
+            this.btMenu6.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu6.Name = "btMenu6";
-            this.btMenu6.Size = new System.Drawing.Size(101, 45);
+            this.btMenu6.Size = new System.Drawing.Size(269, 107);
             this.btMenu6.TabIndex = 2;
             this.btMenu6.Text = "Menu";
             this.btMenu6.UseVisualStyleBackColor = true;
+            this.btMenu6.Click += new System.EventHandler(this.btMenu6_Click);
             // 
             // btMenu7
             // 
-            this.btMenu7.Location = new System.Drawing.Point(130, 301);
+            this.btMenu7.Location = new System.Drawing.Point(347, 718);
+            this.btMenu7.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu7.Name = "btMenu7";
-            this.btMenu7.Size = new System.Drawing.Size(101, 45);
+            this.btMenu7.Size = new System.Drawing.Size(269, 107);
             this.btMenu7.TabIndex = 6;
             this.btMenu7.Text = "Menu";
             this.btMenu7.UseVisualStyleBackColor = true;
+            this.btMenu7.Click += new System.EventHandler(this.btMenu7_Click);
             // 
             // btMenu2
             // 
-            this.btMenu2.Location = new System.Drawing.Point(130, 127);
+            this.btMenu2.Location = new System.Drawing.Point(347, 303);
+            this.btMenu2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu2.Name = "btMenu2";
-            this.btMenu2.Size = new System.Drawing.Size(101, 45);
+            this.btMenu2.Size = new System.Drawing.Size(269, 107);
             this.btMenu2.TabIndex = 4;
             this.btMenu2.Text = "Menu";
             this.btMenu2.UseVisualStyleBackColor = true;
+            this.btMenu2.Click += new System.EventHandler(this.btMenu2_Click);
             // 
             // btMenu9
             // 
-            this.btMenu9.Location = new System.Drawing.Point(360, 301);
+            this.btMenu9.Location = new System.Drawing.Point(960, 718);
+            this.btMenu9.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu9.Name = "btMenu9";
-            this.btMenu9.Size = new System.Drawing.Size(101, 45);
+            this.btMenu9.Size = new System.Drawing.Size(269, 107);
             this.btMenu9.TabIndex = 14;
             this.btMenu9.Text = "Menu";
             this.btMenu9.UseVisualStyleBackColor = true;
+            this.btMenu9.Click += new System.EventHandler(this.btMenu9_Click);
             // 
             // btMenu4
             // 
-            this.btMenu4.Location = new System.Drawing.Point(360, 127);
+            this.btMenu4.Location = new System.Drawing.Point(960, 303);
+            this.btMenu4.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu4.Name = "btMenu4";
-            this.btMenu4.Size = new System.Drawing.Size(101, 45);
+            this.btMenu4.Size = new System.Drawing.Size(269, 107);
             this.btMenu4.TabIndex = 12;
             this.btMenu4.Text = "Menu";
             this.btMenu4.UseVisualStyleBackColor = true;
+            this.btMenu4.Click += new System.EventHandler(this.btMenu4_Click);
             // 
             // btMenu8
             // 
-            this.btMenu8.Location = new System.Drawing.Point(245, 301);
+            this.btMenu8.Location = new System.Drawing.Point(653, 718);
+            this.btMenu8.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu8.Name = "btMenu8";
-            this.btMenu8.Size = new System.Drawing.Size(101, 45);
+            this.btMenu8.Size = new System.Drawing.Size(269, 107);
             this.btMenu8.TabIndex = 10;
             this.btMenu8.Text = "Menu";
             this.btMenu8.UseVisualStyleBackColor = true;
+            this.btMenu8.Click += new System.EventHandler(this.btMenu8_Click);
             // 
             // btMenu3
             // 
-            this.btMenu3.Location = new System.Drawing.Point(245, 127);
+            this.btMenu3.Location = new System.Drawing.Point(653, 303);
+            this.btMenu3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu3.Name = "btMenu3";
-            this.btMenu3.Size = new System.Drawing.Size(101, 45);
+            this.btMenu3.Size = new System.Drawing.Size(269, 107);
             this.btMenu3.TabIndex = 8;
             this.btMenu3.Text = "Menu";
             this.btMenu3.UseVisualStyleBackColor = true;
+            this.btMenu3.Click += new System.EventHandler(this.btMenu3_Click);
             // 
             // btMenu10
             // 
-            this.btMenu10.Location = new System.Drawing.Point(475, 301);
+            this.btMenu10.Location = new System.Drawing.Point(1267, 718);
+            this.btMenu10.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu10.Name = "btMenu10";
-            this.btMenu10.Size = new System.Drawing.Size(101, 45);
+            this.btMenu10.Size = new System.Drawing.Size(269, 107);
             this.btMenu10.TabIndex = 18;
             this.btMenu10.Text = "Menu";
             this.btMenu10.UseVisualStyleBackColor = true;
+            this.btMenu10.Click += new System.EventHandler(this.btMenu10_Click);
             // 
             // btMenu5
             // 
             this.btMenu5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btMenu5.Location = new System.Drawing.Point(475, 127);
+            this.btMenu5.Location = new System.Drawing.Point(1267, 303);
+            this.btMenu5.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu5.Name = "btMenu5";
-            this.btMenu5.Size = new System.Drawing.Size(101, 45);
+            this.btMenu5.Size = new System.Drawing.Size(269, 107);
             this.btMenu5.TabIndex = 16;
             this.btMenu5.Text = "Menu";
             this.btMenu5.UseVisualStyleBackColor = true;
+            this.btMenu5.Click += new System.EventHandler(this.btMenu5_Click);
             // 
             // groupBox1
             // 
@@ -199,9 +219,11 @@
             this.groupBox1.Controls.Add(this.btMenu6);
             this.groupBox1.Controls.Add(this.pbMenu1);
             this.groupBox1.Controls.Add(this.btMenu1);
-            this.groupBox1.Location = new System.Drawing.Point(23, 97);
+            this.groupBox1.Location = new System.Drawing.Point(61, 231);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(589, 362);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.groupBox1.Size = new System.Drawing.Size(1571, 863);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             // 
@@ -209,9 +231,10 @@
             // 
             this.pbMenu10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu10.Image = global::CoffeeCafeProject.Properties.Resources.menu;
-            this.pbMenu10.Location = new System.Drawing.Point(475, 197);
+            this.pbMenu10.Location = new System.Drawing.Point(1267, 470);
+            this.pbMenu10.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbMenu10.Name = "pbMenu10";
-            this.pbMenu10.Size = new System.Drawing.Size(101, 101);
+            this.pbMenu10.Size = new System.Drawing.Size(266, 238);
             this.pbMenu10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMenu10.TabIndex = 19;
             this.pbMenu10.TabStop = false;
@@ -220,9 +243,10 @@
             // 
             this.pbMenu5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu5.Image = global::CoffeeCafeProject.Properties.Resources.menu;
-            this.pbMenu5.Location = new System.Drawing.Point(475, 23);
+            this.pbMenu5.Location = new System.Drawing.Point(1267, 55);
+            this.pbMenu5.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbMenu5.Name = "pbMenu5";
-            this.pbMenu5.Size = new System.Drawing.Size(101, 101);
+            this.pbMenu5.Size = new System.Drawing.Size(266, 238);
             this.pbMenu5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMenu5.TabIndex = 17;
             this.pbMenu5.TabStop = false;
@@ -231,9 +255,10 @@
             // 
             this.pbMenu9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu9.Image = global::CoffeeCafeProject.Properties.Resources.menu;
-            this.pbMenu9.Location = new System.Drawing.Point(360, 197);
+            this.pbMenu9.Location = new System.Drawing.Point(960, 470);
+            this.pbMenu9.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbMenu9.Name = "pbMenu9";
-            this.pbMenu9.Size = new System.Drawing.Size(101, 101);
+            this.pbMenu9.Size = new System.Drawing.Size(266, 238);
             this.pbMenu9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMenu9.TabIndex = 15;
             this.pbMenu9.TabStop = false;
@@ -242,9 +267,10 @@
             // 
             this.pbMenu4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu4.Image = global::CoffeeCafeProject.Properties.Resources.menu;
-            this.pbMenu4.Location = new System.Drawing.Point(360, 23);
+            this.pbMenu4.Location = new System.Drawing.Point(960, 55);
+            this.pbMenu4.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbMenu4.Name = "pbMenu4";
-            this.pbMenu4.Size = new System.Drawing.Size(101, 101);
+            this.pbMenu4.Size = new System.Drawing.Size(266, 238);
             this.pbMenu4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMenu4.TabIndex = 13;
             this.pbMenu4.TabStop = false;
@@ -253,9 +279,10 @@
             // 
             this.pbMenu8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu8.Image = global::CoffeeCafeProject.Properties.Resources.menu;
-            this.pbMenu8.Location = new System.Drawing.Point(245, 197);
+            this.pbMenu8.Location = new System.Drawing.Point(653, 470);
+            this.pbMenu8.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbMenu8.Name = "pbMenu8";
-            this.pbMenu8.Size = new System.Drawing.Size(101, 101);
+            this.pbMenu8.Size = new System.Drawing.Size(266, 238);
             this.pbMenu8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMenu8.TabIndex = 11;
             this.pbMenu8.TabStop = false;
@@ -264,9 +291,10 @@
             // 
             this.pbMenu3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu3.Image = global::CoffeeCafeProject.Properties.Resources.menu;
-            this.pbMenu3.Location = new System.Drawing.Point(245, 23);
+            this.pbMenu3.Location = new System.Drawing.Point(653, 55);
+            this.pbMenu3.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbMenu3.Name = "pbMenu3";
-            this.pbMenu3.Size = new System.Drawing.Size(101, 101);
+            this.pbMenu3.Size = new System.Drawing.Size(266, 238);
             this.pbMenu3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMenu3.TabIndex = 9;
             this.pbMenu3.TabStop = false;
@@ -275,9 +303,10 @@
             // 
             this.pbMenu7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu7.Image = global::CoffeeCafeProject.Properties.Resources.menu;
-            this.pbMenu7.Location = new System.Drawing.Point(130, 197);
+            this.pbMenu7.Location = new System.Drawing.Point(347, 470);
+            this.pbMenu7.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbMenu7.Name = "pbMenu7";
-            this.pbMenu7.Size = new System.Drawing.Size(101, 101);
+            this.pbMenu7.Size = new System.Drawing.Size(266, 238);
             this.pbMenu7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMenu7.TabIndex = 7;
             this.pbMenu7.TabStop = false;
@@ -286,9 +315,10 @@
             // 
             this.pbMenu2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu2.Image = global::CoffeeCafeProject.Properties.Resources.menu;
-            this.pbMenu2.Location = new System.Drawing.Point(130, 23);
+            this.pbMenu2.Location = new System.Drawing.Point(347, 55);
+            this.pbMenu2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbMenu2.Name = "pbMenu2";
-            this.pbMenu2.Size = new System.Drawing.Size(101, 101);
+            this.pbMenu2.Size = new System.Drawing.Size(266, 238);
             this.pbMenu2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMenu2.TabIndex = 5;
             this.pbMenu2.TabStop = false;
@@ -297,9 +327,10 @@
             // 
             this.pbMenu6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu6.Image = global::CoffeeCafeProject.Properties.Resources.menu;
-            this.pbMenu6.Location = new System.Drawing.Point(15, 197);
+            this.pbMenu6.Location = new System.Drawing.Point(40, 470);
+            this.pbMenu6.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbMenu6.Name = "pbMenu6";
-            this.pbMenu6.Size = new System.Drawing.Size(101, 101);
+            this.pbMenu6.Size = new System.Drawing.Size(266, 238);
             this.pbMenu6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMenu6.TabIndex = 3;
             this.pbMenu6.TabStop = false;
@@ -308,9 +339,10 @@
             // 
             this.pbMenu1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pbMenu1.Image = global::CoffeeCafeProject.Properties.Resources.menu;
-            this.pbMenu1.Location = new System.Drawing.Point(15, 23);
+            this.pbMenu1.Location = new System.Drawing.Point(40, 55);
+            this.pbMenu1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pbMenu1.Name = "pbMenu1";
-            this.pbMenu1.Size = new System.Drawing.Size(101, 101);
+            this.pbMenu1.Size = new System.Drawing.Size(266, 238);
             this.pbMenu1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMenu1.TabIndex = 1;
             this.pbMenu1.TabStop = false;
@@ -331,18 +363,21 @@
             this.groupBox2.Controls.Add(this.tbMemberPhone);
             this.groupBox2.Controls.Add(this.rdMemberYes);
             this.groupBox2.Controls.Add(this.rdMenberNo);
-            this.groupBox2.Location = new System.Drawing.Point(626, 23);
+            this.groupBox2.Location = new System.Drawing.Point(1669, 55);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(293, 522);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.groupBox2.Size = new System.Drawing.Size(781, 1245);
             this.groupBox2.TabIndex = 24;
             this.groupBox2.TabStop = false;
             // 
             // btCancel
             // 
             this.btCancel.Image = global::CoffeeCafeProject.Properties.Resources.reset;
-            this.btCancel.Location = new System.Drawing.Point(47, 432);
+            this.btCancel.Location = new System.Drawing.Point(125, 1030);
+            this.btCancel.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btCancel.Name = "btCancel";
-            this.btCancel.Size = new System.Drawing.Size(87, 68);
+            this.btCancel.Size = new System.Drawing.Size(232, 162);
             this.btCancel.TabIndex = 29;
             this.btCancel.Text = "ยกเลิก";
             this.btCancel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -352,23 +387,26 @@
             // btSave
             // 
             this.btSave.Image = global::CoffeeCafeProject.Properties.Resources.save;
-            this.btSave.Location = new System.Drawing.Point(166, 432);
+            this.btSave.Location = new System.Drawing.Point(443, 1030);
+            this.btSave.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btSave.Name = "btSave";
-            this.btSave.Size = new System.Drawing.Size(87, 68);
+            this.btSave.Size = new System.Drawing.Size(232, 162);
             this.btSave.TabIndex = 28;
             this.btSave.Text = "บันทึก";
             this.btSave.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btSave.UseVisualStyleBackColor = true;
+            this.btSave.Click += new System.EventHandler(this.btSave_Click);
             // 
             // tbMemberName
             // 
             this.tbMemberName.BackColor = System.Drawing.Color.White;
             this.tbMemberName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbMemberName.ForeColor = System.Drawing.Color.Black;
-            this.tbMemberName.Location = new System.Drawing.Point(44, 81);
+            this.tbMemberName.Location = new System.Drawing.Point(117, 193);
+            this.tbMemberName.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.tbMemberName.Name = "tbMemberName";
-            this.tbMemberName.Size = new System.Drawing.Size(226, 28);
+            this.tbMemberName.Size = new System.Drawing.Size(603, 67);
             this.tbMemberName.TabIndex = 11;
             this.tbMemberName.Text = "(ชื่อสมาชิก)";
             this.tbMemberName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -378,9 +416,10 @@
             this.lbOrderPay.BackColor = System.Drawing.Color.PapayaWhip;
             this.lbOrderPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbOrderPay.ForeColor = System.Drawing.Color.Red;
-            this.lbOrderPay.Location = new System.Drawing.Point(102, 381);
+            this.lbOrderPay.Location = new System.Drawing.Point(272, 909);
+            this.lbOrderPay.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lbOrderPay.Name = "lbOrderPay";
-            this.lbOrderPay.Size = new System.Drawing.Size(125, 37);
+            this.lbOrderPay.Size = new System.Drawing.Size(333, 88);
             this.lbOrderPay.TabIndex = 10;
             this.lbOrderPay.Text = "0.00";
             this.lbOrderPay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -388,9 +427,10 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(220, 389);
+            this.label7.Location = new System.Drawing.Point(587, 928);
+            this.label7.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 23);
+            this.label7.Size = new System.Drawing.Size(112, 55);
             this.label7.TabIndex = 9;
             this.label7.Text = "บาท";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -398,9 +438,10 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(23, 389);
+            this.label6.Location = new System.Drawing.Point(61, 928);
+            this.label6.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 23);
+            this.label6.Size = new System.Drawing.Size(200, 55);
             this.label6.TabIndex = 8;
             this.label6.Text = "รวมเป็นเงิน";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -408,9 +449,10 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(197, 127);
+            this.label5.Location = new System.Drawing.Point(525, 303);
+            this.label5.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 23);
+            this.label5.Size = new System.Drawing.Size(149, 55);
             this.label5.TabIndex = 7;
             this.label5.Text = "แต้ม";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -420,9 +462,10 @@
             this.lbMemberScore.BackColor = System.Drawing.Color.White;
             this.lbMemberScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMemberScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbMemberScore.Location = new System.Drawing.Point(121, 120);
+            this.lbMemberScore.Location = new System.Drawing.Point(323, 286);
+            this.lbMemberScore.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lbMemberScore.Name = "lbMemberScore";
-            this.lbMemberScore.Size = new System.Drawing.Size(70, 36);
+            this.lbMemberScore.Size = new System.Drawing.Size(187, 86);
             this.lbMemberScore.TabIndex = 6;
             this.lbMemberScore.Text = "0";
             this.lbMemberScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -430,9 +473,10 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(20, 127);
+            this.label3.Location = new System.Drawing.Point(53, 303);
+            this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 23);
+            this.label3.Size = new System.Drawing.Size(248, 55);
             this.label3.TabIndex = 5;
             this.label3.Text = "แต้มสะสม";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -440,9 +484,10 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(20, 163);
+            this.label2.Location = new System.Drawing.Point(53, 389);
+            this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 23);
+            this.label2.Size = new System.Drawing.Size(357, 55);
             this.label2.TabIndex = 4;
             this.label2.Text = "รายการเมนูที่สั่ง ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -450,49 +495,57 @@
             // lvOrderMenu
             // 
             this.lvOrderMenu.HideSelection = false;
-            this.lvOrderMenu.Location = new System.Drawing.Point(23, 189);
+            this.lvOrderMenu.Location = new System.Drawing.Point(61, 451);
+            this.lvOrderMenu.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.lvOrderMenu.Name = "lvOrderMenu";
-            this.lvOrderMenu.Size = new System.Drawing.Size(247, 183);
+            this.lvOrderMenu.Size = new System.Drawing.Size(652, 431);
             this.lvOrderMenu.TabIndex = 3;
             this.lvOrderMenu.UseCompatibleStateImageBehavior = false;
             // 
             // tbMemberPhone
             // 
-            this.tbMemberPhone.Location = new System.Drawing.Point(169, 51);
+            this.tbMemberPhone.Location = new System.Drawing.Point(451, 122);
+            this.tbMemberPhone.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.tbMemberPhone.Name = "tbMemberPhone";
-            this.tbMemberPhone.Size = new System.Drawing.Size(101, 20);
+            this.tbMemberPhone.Size = new System.Drawing.Size(263, 38);
             this.tbMemberPhone.TabIndex = 2;
+            this.tbMemberPhone.KeyUp += new System.Windows.Forms.KeyEventHandler(this.tbMemberPhone_KeyUp);
             // 
             // rdMemberYes
             // 
             this.rdMemberYes.AutoSize = true;
-            this.rdMemberYes.Location = new System.Drawing.Point(23, 54);
+            this.rdMemberYes.Location = new System.Drawing.Point(61, 129);
+            this.rdMemberYes.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.rdMemberYes.Name = "rdMemberYes";
-            this.rdMemberYes.Size = new System.Drawing.Size(140, 17);
+            this.rdMemberYes.Size = new System.Drawing.Size(312, 36);
             this.rdMemberYes.TabIndex = 1;
             this.rdMemberYes.Text = "เป็นสมาชิก ระบุเบอร์โทร";
             this.rdMemberYes.UseVisualStyleBackColor = true;
+            this.rdMemberYes.CheckedChanged += new System.EventHandler(this.rdMemberYes_CheckedChanged);
             // 
             // rdMenberNo
             // 
             this.rdMenberNo.AutoSize = true;
             this.rdMenberNo.Checked = true;
-            this.rdMenberNo.Location = new System.Drawing.Point(23, 21);
+            this.rdMenberNo.Location = new System.Drawing.Point(61, 50);
+            this.rdMenberNo.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.rdMenberNo.Name = "rdMenberNo";
-            this.rdMenberNo.Size = new System.Drawing.Size(90, 17);
+            this.rdMenberNo.Size = new System.Drawing.Size(197, 36);
             this.rdMenberNo.TabIndex = 0;
             this.rdMenberNo.TabStop = true;
             this.rdMenberNo.Text = "ไม่เป็นสมาชิก";
             this.rdMenberNo.UseVisualStyleBackColor = true;
+            this.rdMenberNo.CheckedChanged += new System.EventHandler(this.rdMenberNo_CheckedChanged);
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.SaddleBrown;
             this.label1.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(153, 26);
+            this.label1.Location = new System.Drawing.Point(408, 62);
+            this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(331, 55);
+            this.label1.Size = new System.Drawing.Size(883, 131);
             this.label1.TabIndex = 25;
             this.label1.Text = "SAU COFFEE CAFE";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -500,9 +553,10 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::CoffeeCafeProject.Properties.Resources.cofffeelogo;
-            this.pictureBox12.Location = new System.Drawing.Point(517, 26);
+            this.pictureBox12.Location = new System.Drawing.Point(1379, 62);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox12.Size = new System.Drawing.Size(147, 131);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 27;
             this.pictureBox12.TabStop = false;
@@ -510,9 +564,10 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::CoffeeCafeProject.Properties.Resources.cofffeelogo;
-            this.pictureBox11.Location = new System.Drawing.Point(61, 26);
+            this.pictureBox11.Location = new System.Drawing.Point(163, 62);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox11.Size = new System.Drawing.Size(147, 131);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 26;
             this.pictureBox11.TabStop = false;
@@ -520,9 +575,10 @@
             // btMember
             // 
             this.btMember.Image = global::CoffeeCafeProject.Properties.Resources.member;
-            this.btMember.Location = new System.Drawing.Point(330, 477);
+            this.btMember.Location = new System.Drawing.Point(880, 1137);
+            this.btMember.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMember.Name = "btMember";
-            this.btMember.Size = new System.Drawing.Size(154, 68);
+            this.btMember.Size = new System.Drawing.Size(411, 162);
             this.btMember.TabIndex = 23;
             this.btMember.Text = "จัดการข้อมูลสมาชิก";
             this.btMember.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -533,9 +589,10 @@
             // btMenu
             // 
             this.btMenu.Image = global::CoffeeCafeProject.Properties.Resources.coffee;
-            this.btMenu.Location = new System.Drawing.Point(153, 477);
+            this.btMenu.Location = new System.Drawing.Point(408, 1137);
+            this.btMenu.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btMenu.Name = "btMenu";
-            this.btMenu.Size = new System.Drawing.Size(151, 68);
+            this.btMenu.Size = new System.Drawing.Size(403, 162);
             this.btMenu.TabIndex = 22;
             this.btMenu.Text = "จัดการข้อมูลเมนู";
             this.btMenu.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -545,9 +602,9 @@
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(946, 572);
+            this.ClientSize = new System.Drawing.Size(2523, 1364);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.label1);
@@ -557,10 +614,12 @@
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.MaximizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main - SAU Coffee Cafe V.1.0";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbMenu10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMenu5)).EndInit();

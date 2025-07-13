@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 
 namespace CoffeeCafeProject
@@ -21,8 +17,8 @@ namespace CoffeeCafeProject
         private void getAllMemberToListView()
         {
             //กำหนด Connect String เพื่อติดต่อฐานข้อมูล
-            string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
-            using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+            //string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
+            using (SqlConnection sqlConnection = new SqlConnection(ShareResource.connectionString))
             {
                 try
                 {
@@ -141,9 +137,9 @@ namespace CoffeeCafeProject
             if (MessageBox.Show("ต้องการลบเมนูหรือไม่", "ยืนยัน", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 //ลบออกจาก database
-                string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
+                //string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
 
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                using (SqlConnection sqlConnection = new SqlConnection(ShareResource.connectionString))
                 {
                     try
                     {
@@ -205,8 +201,8 @@ namespace CoffeeCafeProject
             }
             else
             {
-                string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                //string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
+                using (SqlConnection sqlConnection = new SqlConnection(ShareResource.connectionString))
                 {
                     try
                     {
@@ -259,9 +255,9 @@ namespace CoffeeCafeProject
             }
             else
             {
-                string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
+                //string connectionString = @"Server=Jam;Database=coffee_cafe_db;Trusted_Connection=True";
 
-                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                using (SqlConnection sqlConnection = new SqlConnection(ShareResource.connectionString))
                 {
                     try
                     {
